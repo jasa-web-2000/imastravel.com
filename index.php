@@ -1,7 +1,7 @@
 <?php
 
-// $domain = 'http://192.168.1.5/romansa-travel.web.id/';
-$domain = 'https://romansa-travel.web.id/';
+$domain = 'http://192.168.1.5/romansa-travel.web.id/';
+// $domain = 'https://romansa-travel.web.id/';
 $brand = 'Travel bersama Romansa Travel';
 // $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/Logo-Romansa-Trans.webp';
@@ -224,13 +224,13 @@ $keunggulan = [
   <!-- End Google Tag Manager (noscript) -->
 
   <header class="">
-    <div class="container !py-2">
+    <div class="container !py-4">
       <div class="flex justify-between">
         <div class="grid place-items-center">
           <a href="<?= $domain ?>">
             <img
               src="<?= $domain . $logoPanjang ?>"
-              class="w-20 rounded m-auto"
+              class="w-16 rounded m-auto"
               alt="logo" />
           </a>
         </div>
