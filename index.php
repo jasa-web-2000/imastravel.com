@@ -73,6 +73,28 @@ $rute = [
   "Travel Lamongan Malang",
 
   "Travel Surabaya Malang",
+
+  // PP
+
+  "Travel Tuban Rembang",
+  "Travel Bojonegoro Rembang",
+  "Travel Lamongan Rembang",
+  "Travel Surabaya Rembang",
+  "Travel Malang Rembang",
+
+  "Travel Bojonegoro Tuban",
+  "Travel Lamongan Tuban",
+  "Travel Surabaya Tuban",
+  "Travel Malang Tuban",
+
+  "Travel Lamongan Bojonegoro",
+  "Travel Surabaya Bojonegoro",
+  "Travel Malang Bojonegoro",
+
+  "Travel Surabaya Lamongan",
+  "Travel Malang Lamongan",
+
+  "Travel Malang Surabaya",
 ];
 
 $kota = [
