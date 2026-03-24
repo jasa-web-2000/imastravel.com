@@ -4,10 +4,10 @@ $domain = 'http://192.168.1.5/paesholtravel.web.id/';
 // $domain = 'https://paesholtravel.web.id/';
 $brand = 'Paeshol Travel Kalimantan';
 // $logoShared = 'src/img/harga-travel.jpg';
-$logo = 'src/img/Logo-Romansa-Trans.webp';
-$logoPanjang = 'src/img/Logo-Romansa-Trans.webp';
-$title = $brand . " - Rute Travel Rembang Bojonegoro Tuban Lamongan Surabaya Malang.";
-$desc = $brand . ", kami menawarkan Travel di daerah Jawa Timur, terutama pada rute travel rembang bojonegoro tuban lamongan surabaya malang.";
+$logo = 'src/img/logo.jpeg';
+$logoPanjang = 'src/img/logo.png';
+$title = $brand . " - Rute Travel Banjarbaru Palangkaraya Banjarmasin Batulicin.";
+$desc = $brand . ", kami menawarkan Travel di daerah Kalimantan, terutama pada rute <strong class='underline'>Travel Banjarbaru Palangkaraya</strong> dan <strong class='underline'>Travel Banjarmasin Batulicin</strong>.";
 $telp = '0857-5488-0712';
 // $telp2 = '0857-9190-4615';
 $alamat = 'Loktabat Utara, Kota Banjar Baru, Kalimantan Selatan';
@@ -54,88 +54,28 @@ $menu = [
 
 
 $rute = [
-  "Travel Rembang Tuban",
-  "Travel Rembang Bojonegoro",
-  "Travel Rembang Lamongan",
-  "Travel Rembang Surabaya",
-  "Travel Rembang Malang",
+  "Travel Banjarbaru Palangkaraya",
+  "Travel Banjarmasin Batulicin",
 
-  "Travel Tuban Bojonegoro",
-  "Travel Tuban Lamongan",
-  "Travel Tuban Surabaya",
-  "Travel Tuban Malang",
-
-  "Travel Bojonegoro Lamongan",
-  "Travel Bojonegoro Surabaya",
-  "Travel Bojonegoro Malang",
-
-  "Travel Lamongan Surabaya",
-  "Travel Lamongan Malang",
-
-  "Travel Surabaya Malang",
-
-  "Travel Rembang Juanda",
-  "Travel Bojonegoro Juanda",
-  "Travel Tuban Juanda",
-  "Travel Lamongan Juanda",
-
-  "Travel Pati Juanda",
-  "Travel Blora Juanda",
-
-  "Travel Pati Surabaya",
-  "Travel Blora Surabaya",
-
-
-  // PP
-
-  "Travel Tuban Rembang",
-  "Travel Bojonegoro Rembang",
-  "Travel Lamongan Rembang",
-  "Travel Surabaya Rembang",
-  "Travel Malang Rembang",
-
-  "Travel Bojonegoro Tuban",
-  "Travel Lamongan Tuban",
-  "Travel Surabaya Tuban",
-  "Travel Malang Tuban",
-
-  "Travel Lamongan Bojonegoro",
-  "Travel Surabaya Bojonegoro",
-  "Travel Malang Bojonegoro",
-
-  "Travel Surabaya Lamongan",
-  "Travel Malang Lamongan",
-
-  "Travel Malang Surabaya",
-
-  "Travel Juanda Rembang",
-  "Travel Juanda Bojonegoro",
-  "Travel Juanda Tuban",
-  "Travel Juanda Lamongan",
-
-  "Travel Juanda Pati",
-  "Travel Juanda Blora",
-
-  "Travel Surabaya Pati",
-  "Travel Surabaya Blora",
+  "Travel Palangkaraya Banjarbaru",
+  "Travel Batulicin Banjarmasin",
 ];
-
 $kota = [
   [
-    'Surabaya',
-    'surabaya.jpg',
+    'Banjarbaru',
+    'banjarbaru.jpg',
   ],
   [
-    'Tuban',
-    'tuban.jpg',
+    'Banjarmasin',
+    'banjarmasin.jpg',
   ],
   [
-    'Malang',
-    'malang.jpg',
+    'Palangkaraya',
+    'palangkaraya.jpg',
   ],
   [
-    'Rembang',
-    'rembang.jpg',
+    'Batulicin',
+    'batulicin.jpg',
   ],
 ];
 
@@ -203,7 +143,7 @@ $keunggulan = [
       j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PSQ884MD');
+    })(window, document, 'script', 'dataLayer', 'GTM-PWVWST4N');
   </script>
   <!-- End Google Tag Manager -->
 
@@ -242,7 +182,7 @@ $keunggulan = [
 
 <body class="font-poppins text-slate-700 overflow-x-hidden">
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSQ884MD"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWVWST4N"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <header class="">
@@ -667,7 +607,7 @@ $keunggulan = [
                   <h3 class="!line-clamp-1 block whitespace-nowrap">
                     <?= $item ?> PP
                   </h3>
-                  <p class="text-sm opacity-80 my-2 !line-clamp-3">Reservasi tiket <strong><?= $item ?></strong> PP dengan sistem door to door dan perjalanan via tol.</p>
+                  <p class="text-sm opacity-80 my-2 !line-clamp-3">Reservasi tiket <strong><?= $item ?></strong> PP dengan sistem door to door dan perjalanan menyenangkan.</p>
                   <a target="_blank" href="<?= $link_whatsapp ?>" class="bg-primary hover:!bg-primary-hover text-slate-100 block text-center text-sm mt-3 rounded p-2 relative">Reservasi Tiket</a>
                 </div>
               </div>
@@ -772,7 +712,7 @@ $keunggulan = [
                 <path
                   d="M176.49,95.51a12,12,0,0,1,0,17l-56,56a12,12,0,0,1-17,0l-24-24a12,12,0,1,1,17-17L112,143l47.51-47.52A12,12,0,0,1,176.49,95.51ZM236,128A108,108,0,1,1,128,20,108.12,108.12,0,0,1,236,128Zm-24,0a84,84,0,1,0-84,84A84.09,84.09,0,0,0,212,128Z"></path>
               </svg>
-              Via tol
+              Bayar ditempat
             </li>
             <li class="inline-flex items-center gap-2">
               <svg
@@ -1111,7 +1051,7 @@ $keunggulan = [
                       alt="bintang" />
                   </div>
                   <p class="testimoni">
-                    Snack tersedia, driver sangat ramah, perjalanan tepat waktu sesuai jadwal, harga sesuai dengan kesepakatan, dan biaya tol sudah termasuk. Layanan yang sangat memuaskan dan profesional!
+                    Snack tersedia, driver sangat ramah, perjalanan tepat waktu sesuai jadwal, harga sesuai dengan kesepakatan, dan biaya bensin sudah termasuk. Layanan yang sangat memuaskan dan profesional!
                   </p>
                   <div class="user-testimoni">
                     <img
