@@ -1,18 +1,18 @@
 <?php
 
-// $domain = 'http://192.168.1.5/romansa-travel.web.id/';
-$domain = 'https://romansa-travel.web.id/';
-$brand = 'Travel bersama Romansa Travel';
+$domain = 'http://192.168.1.5/paesholtravel.web.id/';
+// $domain = 'https://paesholtravel.web.id/';
+$brand = 'Paeshol Travel Kalimantan';
 // $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/Logo-Romansa-Trans.webp';
 $logoPanjang = 'src/img/Logo-Romansa-Trans.webp';
 $title = $brand . " - Rute Travel Rembang Bojonegoro Tuban Lamongan Surabaya Malang.";
 $desc = $brand . ", kami menawarkan Travel di daerah Jawa Timur, terutama pada rute travel rembang bojonegoro tuban lamongan surabaya malang.";
-$telp = '0821-4663-2524';
+$telp = '0857-5488-0712';
 // $telp2 = '0857-9190-4615';
-$alamat = 'Keben, Kebonharjo, Kec. Jatirogo, Kabupaten Tuban, Jawa Timur';
+$alamat = 'Loktabat Utara, Kota Banjar Baru, Kalimantan Selatan';
 
-$iframe = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3961.2667033529897!2d111.61779762695312!3d-6.858604399999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7713003bb0a7ad%3A0x951e0097c43b05af!2sALFIN%20TRAVEL!5e0!3m2!1sen!2sid!4v1772377509306!5m2!1sen!2sid';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3982.6881146153482!2d114.82366669999999!3d-3.4259166999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zM8KwMjUnMzMuMyJTIDExNMKwNDknMjUuMiJF!5e0!3m2!1sid!2sid!4v1774356185568!5m2!1sid!2sid';
 
 function res_telp($telp)
 {
@@ -84,7 +84,7 @@ $rute = [
 
   "Travel Pati Surabaya",
   "Travel Blora Surabaya",
-  
+
 
   // PP
 
