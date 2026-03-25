@@ -1,13 +1,13 @@
 <?php
 
-$domain = 'http://192.168.1.5/paesholtravel.web.id/';
-// $domain = 'https://paesholtravel.web.id/';
+// $domain = 'http://192.168.1.5/paesholtravel.web.id/';
+$domain = 'https://paesholtravel.web.id/';
 $brand = 'Paeshol Travel Kalimantan';
 // $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.jpeg';
 $logoPanjang = 'src/img/logo.png';
 $title = $brand . " - Rute Travel Banjarbaru Palangkaraya Banjarmasin Batulicin.";
-$desc = $brand . ", kami menawarkan Travel di daerah Kalimantan, terutama pada rute <strong class='underline'>Travel Banjarbaru Palangkaraya</strong> dan <strong class='underline'>Travel Banjarmasin Batulicin</strong>.";
+$desc = $brand . ", kami menawarkan Travel di daerah Kalimantan, terutama pada rute Travel Banjarbaru Palangkaraya dan Travel Banjarmasin Batulicin.";
 $telp = '0857-5488-0712';
 // $telp2 = '0857-9190-4615';
 $alamat = 'Loktabat Utara, Kota Banjar Baru, Kalimantan Selatan';
@@ -491,7 +491,7 @@ $keunggulan = [
     <div class="container my-10">
       <a href="<?= $link_whatsapp ?>" target="_blank" rel="nofollow">
 
-        <img src="<?= $domain ?>src/img/Romansa-Trans.webp" class="rounded-xl shadow-md w-full md:aspect-[16/7]" alt="<?= $title ?>">
+        <img src="<?= $domain ?>src/img/Rute-Paeshol-Travel-Kalimantan.webp" class="rounded-xl shadow-md w-full aspect-[16/8] md:aspect-[16/6]" alt="<?= $title ?>">
       </a>
     </div>
 
@@ -597,7 +597,7 @@ $keunggulan = [
                   href="<?= $link_whatsapp ?>!"
                   class=""></a>
                 <img
-                  src="<?= $domain ?>src/img/Rute-Romansa-Trans.webp"
+                  src="<?= $domain ?>src/img/Paeshol-Travel-Kalimantan.webp"
                   width="100%"
                   height="100%"
                   loading="lazy"
@@ -632,10 +632,10 @@ $keunggulan = [
             <div class="text inner-container">
               <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300"><?= $brand ?></h2>
               <p class="desc !text-slate-300 !mb-5">
-                Jadwalkan <?= $desc ?>
+                Rekomendasi <a href="https://jasatravel.web.id/" target="_blank">jasa travel</a> anda bersama <?= $desc ?>
               </p>
               <p class="desc !text-slate-300 !mb-5">
-                Yuk booking <a href="https://jasatravel.web.id/rute-travel/dari-kota-surabaya/ke-kabupaten-tuban/3578/3523" class="underline" target="_blank">Travel Surabaya Tuban</a> sekarang juga bersama, prosesnya cepat dan mudah tanpa ribet, dan nikmati kemudahan pembayaran cash yang bisa dilakukan setelah kamu sampai di tujuan perjalanan.
+                Saat ini <a href="https://biotrans.id/rute/travel-banjarmasin-batulicin/" class="underline" target="_blank"><?= $rute[1] ?></a> dan <?= $rute[0] ?> bisa anda pesan, prosesnya cepat dan mudah tanpa ribet, dan nikmati kemudahan pembayaran cash yang bisa dilakukan setelah kamu sampai di tujuan perjalanan.
               </p>
               <p class="desc !text-slate-300 !mb-5">
                 Layanan transportasi lain yang kami sediakan untuk anda:
@@ -879,7 +879,7 @@ $keunggulan = [
                       alt="bintang" />
                   </div>
                   <p class="testimoni">
-                    Saya menggunakan jasa Travel <?= $brand ?> untuk rute <a href="https://jasatravel.web.id/rute-travel/dari-kabupaten-tuban/ke-kota-surabaya/3523/3578" class="underline" target="_blank">Travel Tuban Surabaya</a>. Pelayanan sangat memuaskan, armada nyaman, tepat waktu, dan staf ramah. Pengalaman perjalanan yang menyenangkan dan saya sangat puas!
+                    Saya menggunakan jasa Travel <?= $brand ?> untuk rute <?= $rute[0] ?>. Pelayanan sangat memuaskan, armada nyaman, tepat waktu, dan staf ramah. Pengalaman perjalanan yang menyenangkan dan saya sangat puas!
                   </p>
                   <div class="user-testimoni">
                     <img
