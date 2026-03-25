@@ -10,9 +10,10 @@ $title = $brand . " - Rute Travel Banjarbaru Palangkaraya Banjarmasin Batulicin.
 $desc = $brand . ", kami menawarkan Travel di daerah Kalimantan, terutama pada rute Travel Banjarbaru Palangkaraya dan Travel Banjarmasin Batulicin.";
 $telp = '0857-5488-0712';
 // $telp2 = '0857-9190-4615';
-$alamat = 'Loktabat Utara, Kota Banjar Baru, Kalimantan Selatan';
+$alamat = 'Berkat Mulia Residence 3, Jl. Taruna Praja, RT 19/RW 03, Sei Sipai, Kota Banjarbaru, Kalimantan Selatan 70612, Indonesia';
 
-$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3982.6881146153482!2d114.82366669999999!3d-3.4259166999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zM8KwMjUnMzMuMyJTIDExNMKwNDknMjUuMiJF!5e0!3m2!1sid!2sid!4v1774356185568!5m2!1sid!2sid';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d296.0150520678639!2d114.82361881641866!3d-3.425959065467091!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de68165275ccfbb%3A0xb5dc5c1c1cd103fa!2sPAESHOL%20TRAVEL%2001!5e0!3m2!1sid!2sid!4v1774423339087!5m2!1sid!2sid';
+
 
 function res_telp($telp)
 {
