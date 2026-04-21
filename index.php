@@ -1,7 +1,7 @@
 <?php
 
 $domain = 'http://10.36.9.235/duacahayautamatrans.web.id/';
-// $domain = 'https://duacahayautamatrans.web.id/';
+$domain = 'https://duacahayautamatrans.web.id/';
 $brand = 'Dua Cahaya Utama Trans';
 // $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.webp';
@@ -144,7 +144,7 @@ $keunggulan = [
       j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PWVWST4N');
+    })(window, document, 'script', 'dataLayer', 'GTM-TJ3QR23Z');
   </script>
   <!-- End Google Tag Manager -->
 
@@ -183,7 +183,7 @@ $keunggulan = [
 
 <body class="font-poppins text-slate-700 overflow-x-hidden">
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWVWST4N"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJ3QR23Z"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <header class="">
