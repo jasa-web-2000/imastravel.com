@@ -1,12 +1,12 @@
 <?php
 
-// $domain = 'http://192.168.1.5/paesholtravel.web.id/';
-$domain = 'https://paesholtravel.web.id/';
-$brand = 'Paeshol Travel Kalimantan';
+$domain = 'http://10.36.9.235/duacahayautamatrans.web.id/';
+// $domain = 'https://duacahayautamatrans.web.id/';
+$brand = 'Dua Cahaya Utama Trans';
 // $logoShared = 'src/img/harga-travel.jpg';
-$logo = 'src/img/logo.jpeg';
-$logoPanjang = 'src/img/logo.png';
-$title = $brand . " - Rute Travel Banjarbaru Palangkaraya Banjarmasin Batulicin.";
+$logo = 'src/img/logo.webp';
+$logoPanjang = 'src/img/logo.webp';
+$title = $brand . " - Travel dari Arah Jawa Barat menuju Jawa Tengah";
 $desc = $brand . ", kami menawarkan Travel di daerah Kalimantan, terutama pada rute Travel Banjarbaru Palangkaraya dan Travel Banjarmasin Batulicin.";
 $telp = '0857-5488-0712';
 // $telp2 = '0857-9190-4615';
