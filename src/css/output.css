@@ -778,8 +778,8 @@ video {
   display: none;
 }
 
-.aspect-\[16\/8\] {
-  aspect-ratio: 16/8;
+.aspect-\[16\/9\] {
+  aspect-ratio: 16/9;
 }
 
 .aspect-square {
@@ -1793,8 +1793,8 @@ header.activeHeader {
     display: none;
   }
 
-  .md\:aspect-\[16\/6\] {
-    aspect-ratio: 16/6;
+  .md\:aspect-\[16\/7\] {
+    aspect-ratio: 16/7;
   }
 
   .md\:max-w-\[400px\] {

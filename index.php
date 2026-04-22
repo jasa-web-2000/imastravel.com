@@ -1,18 +1,18 @@
 <?php
 
-$domain = 'http://10.36.9.235/duacahayautamatrans.web.id/';
+$domain = 'http://192.168.1.6/duacahayautamatrans.web.id/';
 $domain = 'https://duacahayautamatrans.web.id/';
 $brand = 'Dua Cahaya Utama Trans';
 // $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.webp';
 $logoPanjang = 'src/img/logo.webp';
-$title = $brand . " - Travel dari Arah Jawa Barat menuju Jawa Tengah";
-$desc = $brand . ", kami menawarkan Travel di daerah Kalimantan, terutama pada rute Travel Banjarbaru Palangkaraya dan Travel Banjarmasin Batulicin.";
-$telp = '0857-5488-0712';
+$title = $brand . " - Travel dari Arah Jawa Barat menuju Jawa Tengah dan Jogja";
+$desc = $brand . ", siap membantu perjalanan travel selama 24 jam dengan sistem antar jemput dari rumah..";
+$telp = '0813-1430-654';
 // $telp2 = '0857-9190-4615';
-$alamat = 'Berkat Mulia Residence 3, Jl. Taruna Praja, RT 19/RW 03, Sei Sipai, Kota Banjarbaru, Kalimantan Selatan 70612, Indonesia';
+$alamat = 'Maripari, Kabupaten Garut, Jawa Barat';
 
-$iframe = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d296.0150520678639!2d114.82361881641866!3d-3.425959065467091!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de68165275ccfbb%3A0xb5dc5c1c1cd103fa!2sPAESHOL%20TRAVEL%2001!5e0!3m2!1sid!2sid!4v1774423339087!5m2!1sid!2sid';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d989.7283062508387!2d107.98724626950352!3d-7.136032999554241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDgnMDkuNyJTIDEwN8KwNTknMTYuNCJF!5e0!3m2!1sid!2sid!4v1776780983892!5m2!1sid!2sid';
 
 
 function res_telp($telp)
@@ -55,28 +55,48 @@ $menu = [
 
 
 $rute = [
-  "Travel Banjarbaru Palangkaraya",
-  "Travel Banjarmasin Batulicin",
+  "Travel Garut Cirebon",
+  "Travel Garut Tegal",
+  "Travel Garut Pemalang",
+  "Travel Garut Pekalongan",
+  "Travel Garut Semarang",
+  "Travel Garut Jogja",
+  "Travel Garut Solo",
 
-  "Travel Palangkaraya Banjarbaru",
-  "Travel Batulicin Banjarmasin",
+  "Travel Sumedang Cirebon",
+  "Travel Sumedang Tegal",
+  "Travel Sumedang Pemalang",
+  "Travel Sumedang Pekalongan",
+  "Travel Sumedang Semarang",
+  "Travel Sumedang Jogja",
+  "Travel Sumedang Solo",
+
+  "Travel Tasik Cirebon",
+  "Travel Tasik Tegal",
+  "Travel Tasik Pemalang",
+  "Travel Tasik Pekalongan",
+  "Travel Tasik Semarang",
+  "Travel Tasik Jogja",
+  "Travel Tasik Solo",
+
 ];
+
 $kota = [
   [
-    'Banjarbaru',
-    'banjarbaru.jpg',
+    'Garut',
+    'garut.jpg',
   ],
   [
-    'Banjarmasin',
-    'banjarmasin.jpg',
+    'Semarang',
+    'semarang.jpg',
   ],
   [
-    'Palangkaraya',
-    'palangkaraya.jpg',
+    'Solo',
+    'solo.jpg',
   ],
   [
-    'Batulicin',
-    'batulicin.jpg',
+    'Jogja',
+    'jogja.jpg',
   ],
 ];
 
@@ -186,6 +206,7 @@ $keunggulan = [
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJ3QR23Z"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+
   <header class="">
     <div class="container !py-4">
       <div class="flex justify-between">
@@ -492,7 +513,7 @@ $keunggulan = [
     <div class="container my-10">
       <a href="<?= $link_whatsapp ?>" target="_blank" rel="nofollow">
 
-        <img src="<?= $domain ?>src/img/Rute-Paeshol-Travel-Kalimantan.webp" class="rounded-xl shadow-md w-full aspect-[16/8] md:aspect-[16/6]" alt="<?= $title ?>">
+        <img src="<?= $domain ?>src/img/Dua-Cahaya-Utama-Trans.webp" class="rounded-xl shadow-md w-full aspect-[16/9] md:aspect-[16/7]" alt="<?= $title ?>">
       </a>
     </div>
 
@@ -598,7 +619,7 @@ $keunggulan = [
                   href="<?= $link_whatsapp ?>!"
                   class=""></a>
                 <img
-                  src="<?= $domain ?>src/img/Paeshol-Travel-Kalimantan.webp"
+                  src="<?= $domain ?>src/img/Rute-Dua-Cahaya-Utama-Trans.webp"
                   width="100%"
                   height="100%"
                   loading="lazy"
@@ -633,13 +654,13 @@ $keunggulan = [
             <div class="text inner-container">
               <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300"><?= $brand ?></h2>
               <p class="desc !text-slate-300 !mb-5">
-                Rekomendasi <a href="https://jasatravel.web.id/" target="_blank">jasa travel</a> anda bersama <?= $desc ?>
+                Kamu butuh <a href="https://jasatravel.web.id/" target="_blank">jasa travel</a> antar provinsi yang bisa antar jemput sesuai titik? Kami rekomendasikan untuk menjadwalkan perjalanan travel anda bersama <?= $desc ?>
               </p>
               <p class="desc !text-slate-300 !mb-5">
-                Saat ini <a href="https://biotrans.id/rute/travel-banjarmasin-batulicin/" class="underline" target="_blank"><?= $rute[1] ?></a> dan <?= $rute[0] ?> bisa anda pesan, prosesnya cepat dan mudah tanpa ribet, dan nikmati kemudahan pembayaran cash yang bisa dilakukan setelah kamu sampai di tujuan perjalanan.
+                Salah satu rute utama kami adalah rute <a href="https://biotrans.id/rute/travel-garut-semarang/" class="underline" target="_blank">Travel Garut Semarang</a> dan Travel Garut Jogja. Anda jangan ragu memilih kami sebagai solusi transport antar provinsi. Dijamin cepat dan aman sampai tujuan!
               </p>
               <p class="desc !text-slate-300 !mb-5">
-                Layanan transportasi lain yang kami sediakan untuk anda:
+                <?= $brand ?> menawarkan beberapa layanan transportasi untuk perjalanan anda, seperti:
               </p>
               <ul class="!list-item !list-disc text-slate-300 ml-5">
                 <li>Travel Reguler</li>
@@ -673,8 +694,7 @@ $keunggulan = [
             </h2>
             <p
               class="max-w-lg text-base text-indigo-100 mx-auto mt-4 sm:text-lg">
-              Hubungi kami sekarang dan konsultasikan kebutuhan travel murah Anda bersama kami. Tim kami siap membantu memberikan solusi perjalanan terbaik, nyaman, aman, dan sesuai dengan kebutuhan Anda.
-            </p>
+              Silakan menghubungi kami untuk berkonsultasi mengenai kebutuhan perjalanan Anda. Kami siap memberikan informasi dan solusi layanan travel yang sesuai dengan kebutuhan, dengan mengutamakan kenyamanan, keamanan, serta efisiensi perjalanan. </p>
           </div>
           <div
             class="flex justify-center gap-4 mt-8 sm:flex-row sm:items-center sm:gap-5">
@@ -923,14 +943,57 @@ $keunggulan = [
                       alt="bintang" />
                   </div>
                   <p class="testimoni">
-                    Pelayanan luar biasa, mobil sangat nyaman, dapat snack, dan supirnya ramah. Terima kasih banyak Mas Sopir, semoga selalu sukses dan terus memberikan pelayanan terbaik!
+                    Pengalaman pertama menggunakan Travel dari <?= $brand ?> untuk rute <?php $rute[2] ?> sangat memuaskan. Proses pemesanan melalui wensite mudah digunakan, serta memungkinkan pemilihan kursi sesuai keinginan.
                   </p>
                   <div class="user-testimoni">
                     <img
                       src="./src/img/group.png"
                       alt="testimoni" />
                     <div>
-                      <p>Rina Pratiwi</p>
+                      <p>Rifal Noor</p>
+                      <p>Mahasiswa</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="itemSlider">
+                  <div class="">
+                    <img
+                      src="./src/img/star.png"
+                      width="16"
+                      height="16"
+                      alt="bintang" />
+                    <img
+                      src="./src/img/star.png"
+                      width="16"
+                      height="16"
+                      alt="bintang" />
+                    <img
+                      src="./src/img/star.png"
+                      width="16"
+                      height="16"
+                      alt="bintang" />
+                    <img
+                      src="./src/img/star.png"
+                      width="16"
+                      height="16"
+                      alt="bintang" />
+                    <img
+                      src="./src/img/star.png"
+                      width="16"
+                      height="16"
+                      alt="bintang" />
+                  </div>
+                  <p class="testimoni">
+                    Saya sudah beberapa kali menggunakan layanan Kencana dengan rute <?= $rute[0] ?>, <?= $rute[1] ?>, dan <?= $rute[4] ?>. Secara umum, pengalaman perjalanan selalu aman, nyaman, dan tepat waktu. Alhamdulillah, hampir tidak pernah terjadi keterlambatan.
+                  </p>
+                  <div class="user-testimoni">
+                    <img
+                      src="./src/img/group.png"
+                      alt="testimoni" />
+                    <div>
+                      <p>Nadia Ulya</p>
                       <p>Guru</p>
                     </div>
                   </div>
@@ -966,15 +1029,15 @@ $keunggulan = [
                       alt="bintang" />
                   </div>
                   <p class="testimoni">
-                    Perjalanan sangat nyaman, cara menyetir driver sangat baik, dan sikapnya sangat ramah. Pengalaman yang menyenangkan dan membuat perjalanan semakin menyenangkan!
+                    Pool armada <?= $brand ?> di Garut memiliki ruang tunggu terpisah untuk smoking dan non-smoking, fasilitas AC dingin, sofa nyaman, snack gratis, area charger, toilet, serta musholla yang tersedia untuk penumpang.
                   </p>
                   <div class="user-testimoni">
                     <img
                       src="./src/img/group.png"
                       alt="testimoni" />
                     <div>
-                      <p>Dewi Anggraini</p>
-                      <p>Ibu Rumah Tangga</p>
+                      <p>Ferina Hidayati</p>
+                      <p>Dokter</p>
                     </div>
                   </div>
                 </div>
@@ -1009,58 +1072,15 @@ $keunggulan = [
                       alt="bintang" />
                   </div>
                   <p class="testimoni">
-                    Sudah dua kali menggunakan travel ini, pelayanan admin sangat bagus dan respons cepat. Penjemputan selalu tepat waktu sesuai jadwal, mobilnya bersih dan nyaman, driver ramah, dan snack tersedia di kursi.
+                    Saya sudah menjadi pelanggan tetap selama 2 tahun untuk pengiriman paket dokumen ke Pekalongan dengan frekuensi sekitar tiga kali dalam seminggu, dan saya merasa sangat puas karena harga pengiriman sangat terjangkau dibandingkan travel lain serta pelayanan yang diberikan tetap memudahkan proses pengiriman baik melalui konter di dalam maupun area luar.
                   </p>
                   <div class="user-testimoni">
                     <img
                       src="./src/img/group.png"
                       alt="testimoni" />
                     <div>
-                      <p>Nina Sari</p>
-                      <p>Mahasiswi</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="itemSlider">
-                  <div class="">
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                  </div>
-                  <p class="testimoni">
-                    Snack tersedia, driver sangat ramah, perjalanan tepat waktu sesuai jadwal, harga sesuai dengan kesepakatan, dan biaya bensin sudah termasuk. Layanan yang sangat memuaskan dan profesional!
-                  </p>
-                  <div class="user-testimoni">
-                    <img
-                      src="./src/img/group.png"
-                      alt="testimoni" />
-                    <div>
-                      <p>Joko</p>
-                      <p>Buruh Pabrik</p>
+                      <p>Nur Miharja</p>
+                      <p>Penjual kebaya</p>
                     </div>
                   </div>
                 </div>
