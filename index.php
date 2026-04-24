@@ -79,6 +79,30 @@ $rute = [
   "Travel Tasik Jogja",
   "Travel Tasik Solo",
 
+  "Travel Cirebon Garut",
+  "Travel Tegal Garut",
+  "Travel Pemalang Garut",
+  "Travel Pekalongan Garut",
+  "Travel Semarang Garut",
+  "Travel Jogja Garut",
+  "Travel Solo Garut",
+
+  "Travel Cirebon Sumedang",
+  "Travel Tegal Sumedang",
+  "Travel Pemalang Sumedang",
+  "Travel Pekalongan Sumedang",
+  "Travel Semarang Sumedang",
+  "Travel Jogja Sumedang",
+  "Travel Solo Sumedang",
+
+  "Travel Cirebon Tasik",
+  "Travel Tegal Tasik",
+  "Travel Pemalang Tasik",
+  "Travel Pekalongan Tasik",
+  "Travel Semarang Tasik",
+  "Travel Jogja Tasik",
+  "Travel Solo Tasik",
+
 ];
 
 $kota = [
