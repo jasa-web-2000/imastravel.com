@@ -1,18 +1,18 @@
 <?php
 
-$domain = 'http://192.168.1.6/duacahayautamatrans.web.id/';
-$domain = 'https://duacahayautamatrans.web.id/';
-$brand = 'Dua Cahaya Utama Trans';
+$domain = 'http://192.168.1.6/ar-trans.web.id/';
+$domain = 'https://ar-trans.web.id/';
+$brand = 'AR Trans';
 // $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.webp';
 $logoPanjang = 'src/img/logo.webp';
-$title = $brand . " - Travel dari Arah Jawa Barat menuju Jawa Tengah dan Jogja";
-$desc = $brand . ", siap membantu perjalanan travel selama 24 jam dengan sistem antar jemput dari rumah..";
-$telp = '0813-1430-654';
+$title = $brand . " - Travel terbaik di Purwokerto Banyumas";
+$desc = $brand . ", siap membantu perjalanan travel dari Purwokerto Banyumas ke seluruh daerah di Jawa";
+$telp = '0856-0269-9113';
 // $telp2 = '0857-9190-4615';
-$alamat = 'Maripari, Kabupaten Garut, Jawa Barat';
+$alamat = 'Kajongan, Kec. Bojongsari, Kabupaten Purbalingga, Jawa Tengah 53362';
 
-$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d989.7283062508387!2d107.98724626950352!3d-7.136032999554241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDgnMDkuNyJTIDEwN8KwNTknMTYuNCJF!5e0!3m2!1sid!2sid!4v1776780983892!5m2!1sid!2sid';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.9914316849095!2d109.3492588!3d-7.3548556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6559c110faf1c3%3A0x7905a79abef8f6ca!2sMushola%20Darul%20Muttaqin!5e0!3m2!1sid!2sid!4v1777106566189!5m2!1sid!2sid';
 
 
 function res_telp($telp)
