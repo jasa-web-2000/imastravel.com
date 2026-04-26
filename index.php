@@ -6,8 +6,8 @@ $brand = 'AR Trans';
 // $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.webp';
 $logoPanjang = 'src/img/logo.webp';
-$title = $brand . " - Travel terbaik di Purwokerto Banyumas";
-$desc = $brand . ", siap membantu perjalanan travel dari Purwokerto Banyumas ke seluruh daerah di Jawa";
+$title = $brand . " - Travel terbaik di Purwokerto Banyumas Purbalingga";
+$desc = $brand . ", siap membantu perjalanan travel dari Purwokerto Banyumas Purbalingga ke seluruh daerah di Jawa";
 $telp = '0856-0269-9113';
 // $telp2 = '0857-9190-4615';
 $alamat = 'Kajongan, Kec. Bojongsari, Kabupaten Purbalingga, Jawa Tengah 53362';
@@ -55,68 +55,115 @@ $menu = [
 
 
 $rute = [
-  "Travel Garut Cirebon",
-  "Travel Garut Tegal",
-  "Travel Garut Pemalang",
-  "Travel Garut Pekalongan",
-  "Travel Garut Semarang",
-  "Travel Garut Jogja",
-  "Travel Garut Solo",
+  "Travel Purwokerto Jogja",
+  "Travel Purwokerto Klaten",
+  "Travel Purwokerto Solo",
+  "Travel Purwokerto Sragen",
+  "Travel Purwokerto Wonogiri",
+  "Travel Purwokerto Sukoharjo",
+  "Travel Purwokerto Boyolali",
+  "Travel Purwokerto Salatiga",
+  "Travel Purwokerto Temanggung",
+  "Travel Purwokerto Magelang",
+  "Travel Purwokerto Semarang",
+  "Travel Purwokerto Jepara",
+  "Travel Purwokerto Demak",
+  "Travel Purwokerto Pati",
+  "Travel Purwokerto Surabaya",
+  "Travel Banyumas Jogja",
+  "Travel Banyumas Klaten",
+  "Travel Banyumas Solo",
+  "Travel Banyumas Sragen",
+  "Travel Banyumas Wonogiri",
+  "Travel Banyumas Sukoharjo",
+  "Travel Banyumas Boyolali",
+  "Travel Banyumas Salatiga",
+  "Travel Banyumas Temanggung",
+  "Travel Banyumas Magelang",
+  "Travel Banyumas Semarang",
+  "Travel Banyumas Jepara",
+  "Travel Banyumas Demak",
+  "Travel Banyumas Pati",
+  "Travel Banyumas Surabaya",
+  "Travel Purbalingga Jogja",
+  "Travel Purbalingga Klaten",
+  "Travel Purbalingga Solo",
+  "Travel Purbalingga Sragen",
+  "Travel Purbalingga Wonogiri",
+  "Travel Purbalingga Sukoharjo",
+  "Travel Purbalingga Boyolali",
+  "Travel Purbalingga Salatiga",
+  "Travel Purbalingga Temanggung",
+  "Travel Purbalingga Magelang",
+  "Travel Purbalingga Semarang",
+  "Travel Purbalingga Jepara",
+  "Travel Purbalingga Demak",
+  "Travel Purbalingga Pati",
+  "Travel Purbalingga Surabaya",
 
-  "Travel Sumedang Cirebon",
-  "Travel Sumedang Tegal",
-  "Travel Sumedang Pemalang",
-  "Travel Sumedang Pekalongan",
-  "Travel Sumedang Semarang",
-  "Travel Sumedang Jogja",
-  "Travel Sumedang Solo",
 
-  "Travel Tasik Cirebon",
-  "Travel Tasik Tegal",
-  "Travel Tasik Pemalang",
-  "Travel Tasik Pekalongan",
-  "Travel Tasik Semarang",
-  "Travel Tasik Jogja",
-  "Travel Tasik Solo",
+  // 
 
-  "Travel Cirebon Garut",
-  "Travel Tegal Garut",
-  "Travel Pemalang Garut",
-  "Travel Pekalongan Garut",
-  "Travel Semarang Garut",
-  "Travel Jogja Garut",
-  "Travel Solo Garut",
-
-  "Travel Cirebon Sumedang",
-  "Travel Tegal Sumedang",
-  "Travel Pemalang Sumedang",
-  "Travel Pekalongan Sumedang",
-  "Travel Semarang Sumedang",
-  "Travel Jogja Sumedang",
-  "Travel Solo Sumedang",
-
-  "Travel Cirebon Tasik",
-  "Travel Tegal Tasik",
-  "Travel Pemalang Tasik",
-  "Travel Pekalongan Tasik",
-  "Travel Semarang Tasik",
-  "Travel Jogja Tasik",
-  "Travel Solo Tasik",
+  "Travel Jogja Purwokerto",
+  "Travel Klaten Purwokerto",
+  "Travel Solo Purwokerto",
+  "Travel Sragen Purwokerto",
+  "Travel Wonogiri Purwokerto",
+  "Travel Sukoharjo Purwokerto",
+  "Travel Boyolali Purwokerto",
+  "Travel Salatiga Purwokerto",
+  "Travel Temanggung Purwokerto",
+  "Travel Magelang Purwokerto",
+  "Travel Semarang Purwokerto",
+  "Travel Jepara Purwokerto",
+  "Travel Demak Purwokerto",
+  "Travel Pati Purwokerto",
+  "Travel Surabaya Purwokerto",
+  "Travel Jogja Banyumas",
+  "Travel Klaten Banyumas",
+  "Travel Solo Banyumas",
+  "Travel Sragen Banyumas",
+  "Travel Wonogiri Banyumas",
+  "Travel Sukoharjo Banyumas",
+  "Travel Boyolali Banyumas",
+  "Travel Salatiga Banyumas",
+  "Travel Temanggung Banyumas",
+  "Travel Magelang Banyumas",
+  "Travel Semarang Banyumas",
+  "Travel Jepara Banyumas",
+  "Travel Demak Banyumas",
+  "Travel Pati Banyumas",
+  "Travel Surabaya Banyumas",
+  "Travel Jogja Purbalingga",
+  "Travel Klaten Purbalingga",
+  "Travel Solo Purbalingga",
+  "Travel Sragen Purbalingga",
+  "Travel Wonogiri Purbalingga",
+  "Travel Sukoharjo Purbalingga",
+  "Travel Boyolali Purbalingga",
+  "Travel Salatiga Purbalingga",
+  "Travel Temanggung Purbalingga",
+  "Travel Magelang Purbalingga",
+  "Travel Semarang Purbalingga",
+  "Travel Jepara Purbalingga",
+  "Travel Demak Purbalingga",
+  "Travel Pati Purbalingga",
+  "Travel Surabaya Purbalingga",
 
 ];
 
 $kota = [
   [
-    'Garut',
-    'garut.jpg',
+    'Purwokerto',
+    'purwokerto.jpg',
+  ],
+  [
+    'Banyumas',
+    'banyumas.jpg',
   ],
   [
     'Semarang',
     'semarang.jpg',
-  ],
-  [
-    'Solo',
-    'solo.jpg',
   ],
   [
     'Jogja',
@@ -358,7 +405,7 @@ $keunggulan = [
     <?php endif; ?> -->
 
     <!-- Hero Section -->
-    <section class="container">
+    <section class="container !pb-10">
       <div
         style="background-image: url(./src/img/background-hero-section.jpg)"
         class="py-10 lg:py-7 bg-fixed bg-contain bg-center rounded-lg relative">
@@ -534,17 +581,17 @@ $keunggulan = [
     </section>
 
     <!-- Jadwal -->
-    <div class="container my-10">
+    <!-- <div class="container my-10">
       <a href="<?= $link_whatsapp ?>" target="_blank" rel="nofollow">
 
         <img src="<?= $domain ?>src/img/Dua-Cahaya-Utama-Trans.webp" class="rounded-xl shadow-md w-full aspect-[16/9] md:aspect-[16/7]" alt="<?= $title ?>">
       </a>
-    </div>
+    </div> -->
 
 
     <!-- Kota Populer -->
     <section class=" mb-20 bg-blue-50">
-      <div class="container">
+      <div class="container ">
         <div class="py-20">
           <div class="text-center inner-container">
             <h2 class="line-h2">Lokasi Travel Populer</h2>
@@ -636,14 +683,14 @@ $keunggulan = [
           class="grid grid-cols-12 gap-x-6 gap-y-8 [&>div]:col-span-12 [&>div]:sm:col-span-6 [&>div]:md:col-span-4 [&>div]:lg:col-span-3 [&>div]:rounded-xl [&>div]:border-b-8 [&>div]:border-primary [&>div]:shadow-xl [&>div]:overflow-hidden [&>div]:bg-white [&>div]:relative [&>div>a]:absolute [&>div>a]:inset-0 [&_img]:border-b [&>div_div]:p-4 [&>div_div]:md:px-5 [&>div_div]:lg:px-6 [&_h3]:line-clamp-3 [&_h3]:text-[15px] [&_h3]:font-semibold [&_h3]:text-slate-700 [&_h3]:z-10 [&_h3]:relative [&_h3]:cursor-pointer">
           <?php if (count($rute) > 0) : ?>
             <?php foreach ($rute as $item) : ?>
-              <div>
+              <div class="rute">
                 <a
                   target="_blank"
                   title="<?= 'rute ' . $item ?>"
                   href="<?= $link_whatsapp ?>!"
                   class=""></a>
                 <img
-                  src="<?= $domain ?>src/img/Rute-Dua-Cahaya-Utama-Trans.webp"
+                  src="<?= $domain ?>src/img/rute.webp"
                   width="100%"
                   height="100%"
                   loading="lazy"
@@ -659,6 +706,12 @@ $keunggulan = [
               </div>
             <?php endforeach; ?>
           <?php endif; ?>
+        </div>
+        <div class="text-center mt-6">
+          <button id="loadMoreBtn"
+            class="bg-primary text-white px-6 py-2 rounded hover:!bg-primary-hover">
+            Muat Rute
+          </button>
         </div>
 
       </div>
@@ -678,20 +731,23 @@ $keunggulan = [
             <div class="text inner-container">
               <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300"><?= $brand ?></h2>
               <p class="desc !text-slate-300 !mb-5">
-                Kamu butuh <a href="https://jasatravel.web.id/" target="_blank">jasa travel</a> antar provinsi yang bisa antar jemput sesuai titik? Kami rekomendasikan untuk menjadwalkan perjalanan travel anda bersama <?= $desc ?>
+                <?= $brand ?> menawarkan <a href="https://jasatravel.web.id/" target="_blank">jasa travel</a> antar provinsi yang bisa antar jemput sesuai titik? Kami rekomendasikan untuk menjadwalkan perjalanan travel anda bersama <?= $desc ?>
               </p>
               <p class="desc !text-slate-300 !mb-5">
-                Salah satu rute utama kami adalah rute <a href="https://biotrans.id/rute/travel-garut-semarang/" class="underline" target="_blank">Travel Garut Semarang</a> dan Travel Garut Jogja. Anda jangan ragu memilih kami sebagai solusi transport antar provinsi. Dijamin cepat dan aman sampai tujuan!
+                Salah satu rute utama kami adalah rute <a href="https://biotrans.id/rute/travel-banyumas-jogja//" class="underline" target="_blank">Travel Banyumas Jogja</a> dan Travel Purwokerto Semarang. Anda jangan ragu memilih kami sebagai solusi transport antar provinsi. Dijamin cepat dan aman sampai tujuan!
               </p>
               <p class="desc !text-slate-300 !mb-5">
                 <?= $brand ?> menawarkan beberapa layanan transportasi untuk perjalanan anda, seperti:
               </p>
               <ul class="!list-item !list-disc text-slate-300 ml-5">
                 <li>Travel Reguler</li>
-                <li>Carter (Private)</li>
-                <li>Sewa Mobil</li>
-                <li>Kirim Paket</li>
+                <li>Drop Off</li>
+                <li>Drop Bandara</li>
+                <li>Drop Pelabuhan</li>
+                <li>Carter</li>
                 <li>Paket Wisata</li>
+                <li>Ziaroh</li>
+                <li>Kirim Paket</li>
               </ul>
             </div>
             <!-- <div class="grid grid-cols-2">
@@ -1053,7 +1109,7 @@ $keunggulan = [
                       alt="bintang" />
                   </div>
                   <p class="testimoni">
-                    Pool armada <?= $brand ?> di Garut memiliki ruang tunggu terpisah untuk smoking dan non-smoking, fasilitas AC dingin, sofa nyaman, snack gratis, area charger, toilet, serta musholla yang tersedia untuk penumpang.
+                    Pool armada <?= $brand ?> di Purwokerto memiliki ruang tunggu terpisah untuk smoking dan non-smoking, fasilitas AC dingin, sofa nyaman, snack gratis, area charger, toilet, serta musholla yang tersedia untuk penumpang.
                   </p>
                   <div class="user-testimoni">
                     <img
