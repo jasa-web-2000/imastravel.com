@@ -235,7 +235,7 @@ $keunggulan = [
       j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-TJ3QR23Z');
+    })(window, document, 'script', 'dataLayer', 'GTM-T8QWF7CH');
   </script>
   <!-- End Google Tag Manager -->
 
@@ -274,7 +274,7 @@ $keunggulan = [
 
 <body class="font-poppins text-slate-700 overflow-x-hidden">
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJ3QR23Z"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8QWF7CH"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
