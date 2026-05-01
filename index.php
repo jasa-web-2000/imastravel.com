@@ -1,18 +1,18 @@
 <?php
 
-$domain = 'http://192.168.1.6/ar-trans.web.id/';
-$domain = 'https://ar-trans.web.id/';
-$brand = 'AR Trans';
+$domain = 'http://192.168.1.6/imastravel.com/';
+$domain = 'https://imastravel.com/';
+$brand = 'Imas Travel';
 // $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.webp';
 $logoPanjang = 'src/img/logo.webp';
-$title = $brand . " - Travel terbaik di Purwokerto Banyumas Purbalingga";
-$desc = $brand . ", siap membantu perjalanan travel dari Purwokerto Banyumas Purbalingga ke seluruh daerah di Jawa";
-$telp = '0856-0025-9115';
+$title = $brand . " - Travel terbaik di Kediri dan sekitar";
+$desc = $brand . ", siap membantu perjalanan travel dari Kediri dan sekitar ke seluruh daerah di Jawa Timur";
+$telp = '0853-3821-8900';
 // $telp2 = '0857-9190-4615';
-$alamat = 'Kajongan, Kec. Bojongsari, Kabupaten Purbalingga, Jawa Tengah 53362';
+$alamat = 'Banaran, Kota Kediri, Jawa Timur';
 
-$iframe = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.9914316849095!2d109.3492588!3d-7.3548556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6559c110faf1c3%3A0x7905a79abef8f6ca!2sMushola%20Darul%20Muttaqin!5e0!3m2!1sid!2sid!4v1777106566189!5m2!1sid!2sid';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3952.6069972977025!2d112.0300690750055!3d-7.831351992189694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwNDknNTIuOSJTIDExMsKwMDEnNTcuNSJF!5e0!3m2!1sid!2sid!4v1777646014176!5m2!1sid!2sid';
 
 
 function res_telp($telp)
