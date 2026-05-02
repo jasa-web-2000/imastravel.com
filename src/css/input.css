@@ -13,7 +13,9 @@
 .inner-container {
   @apply max-w-[650px] mx-auto;
 }
-
+.my-gradient {
+  @apply bg-gradient-to-bl from-primary to-primary-hover;
+}
 h2 {
   @apply font-medium text-2xl capitalize;
 }

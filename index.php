@@ -1,13 +1,13 @@
 <?php
 
-$domain = 'http://192.168.1.6/imastravel.com/';
+$domain = 'http://192.168.1.4/imastravel.com/';
 $domain = 'https://imastravel.com/';
 $brand = 'Imas Travel';
 // $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.webp';
 $logoPanjang = 'src/img/logo.webp';
-$title = $brand . " - Travel terbaik di Kediri dan sekitar";
-$desc = $brand . ", siap membantu perjalanan travel dari Kediri dan sekitar ke seluruh daerah di Jawa Timur";
+$title = $brand . " - Tulungagung Kediri Jombang Mojokerto Sidoarjo Surabaya";
+$desc = $brand . ", siap membantu perjalanan Travel pada rute Tulungagung Kediri Jombang Mojokerto Sidoarjo Surabaya";
 $telp = '0853-3821-8900';
 // $telp2 = '0857-9190-4615';
 $alamat = 'Banaran, Kota Kediri, Jawa Timur';
@@ -55,119 +55,61 @@ $menu = [
 
 
 $rute = [
-  "Travel Purwokerto Jogja",
-  "Travel Purwokerto Klaten",
-  "Travel Purwokerto Solo",
-  "Travel Purwokerto Sragen",
-  "Travel Purwokerto Wonogiri",
-  "Travel Purwokerto Sukoharjo",
-  "Travel Purwokerto Boyolali",
-  "Travel Purwokerto Salatiga",
-  "Travel Purwokerto Temanggung",
-  "Travel Purwokerto Magelang",
-  "Travel Purwokerto Semarang",
-  "Travel Purwokerto Jepara",
-  "Travel Purwokerto Demak",
-  "Travel Purwokerto Pati",
-  "Travel Purwokerto Surabaya",
-  "Travel Banyumas Jogja",
-  "Travel Banyumas Klaten",
-  "Travel Banyumas Solo",
-  "Travel Banyumas Sragen",
-  "Travel Banyumas Wonogiri",
-  "Travel Banyumas Sukoharjo",
-  "Travel Banyumas Boyolali",
-  "Travel Banyumas Salatiga",
-  "Travel Banyumas Temanggung",
-  "Travel Banyumas Magelang",
-  "Travel Banyumas Semarang",
-  "Travel Banyumas Jepara",
-  "Travel Banyumas Demak",
-  "Travel Banyumas Pati",
-  "Travel Banyumas Surabaya",
-  "Travel Purbalingga Jogja",
-  "Travel Purbalingga Klaten",
-  "Travel Purbalingga Solo",
-  "Travel Purbalingga Sragen",
-  "Travel Purbalingga Wonogiri",
-  "Travel Purbalingga Sukoharjo",
-  "Travel Purbalingga Boyolali",
-  "Travel Purbalingga Salatiga",
-  "Travel Purbalingga Temanggung",
-  "Travel Purbalingga Magelang",
-  "Travel Purbalingga Semarang",
-  "Travel Purbalingga Jepara",
-  "Travel Purbalingga Demak",
-  "Travel Purbalingga Pati",
-  "Travel Purbalingga Surabaya",
 
+  "Travel Surabaya Kediri",
+  "Travel Surabaya Tulungagung",
+  "Travel Surabaya Jombang",
+  "Travel Surabaya Mojokerto",
 
-  // 
+  "Travel Sidoarjo Kediri",
+  "Travel Sidoarjo Jombang",
+  "Travel Sidoarjo Mojokerto",
 
-  "Travel Jogja Purwokerto",
-  "Travel Klaten Purwokerto",
-  "Travel Solo Purwokerto",
-  "Travel Sragen Purwokerto",
-  "Travel Wonogiri Purwokerto",
-  "Travel Sukoharjo Purwokerto",
-  "Travel Boyolali Purwokerto",
-  "Travel Salatiga Purwokerto",
-  "Travel Temanggung Purwokerto",
-  "Travel Magelang Purwokerto",
-  "Travel Semarang Purwokerto",
-  "Travel Jepara Purwokerto",
-  "Travel Demak Purwokerto",
-  "Travel Pati Purwokerto",
-  "Travel Surabaya Purwokerto",
-  "Travel Jogja Banyumas",
-  "Travel Klaten Banyumas",
-  "Travel Solo Banyumas",
-  "Travel Sragen Banyumas",
-  "Travel Wonogiri Banyumas",
-  "Travel Sukoharjo Banyumas",
-  "Travel Boyolali Banyumas",
-  "Travel Salatiga Banyumas",
-  "Travel Temanggung Banyumas",
-  "Travel Magelang Banyumas",
-  "Travel Semarang Banyumas",
-  "Travel Jepara Banyumas",
-  "Travel Demak Banyumas",
-  "Travel Pati Banyumas",
-  "Travel Surabaya Banyumas",
-  "Travel Jogja Purbalingga",
-  "Travel Klaten Purbalingga",
-  "Travel Solo Purbalingga",
-  "Travel Sragen Purbalingga",
-  "Travel Wonogiri Purbalingga",
-  "Travel Sukoharjo Purbalingga",
-  "Travel Boyolali Purbalingga",
-  "Travel Salatiga Purbalingga",
-  "Travel Temanggung Purbalingga",
-  "Travel Magelang Purbalingga",
-  "Travel Semarang Purbalingga",
-  "Travel Jepara Purbalingga",
-  "Travel Demak Purbalingga",
-  "Travel Pati Purbalingga",
-  "Travel Surabaya Purbalingga",
+  "Travel Bandara Tulungagung",
+  "Travel Bandara Kediri",
+  "Travel Bandara Jombang",
+  "Travel Bandara Mojokerto",
+
+  "Travel Pelabuhan Tulungagung",
+  "Travel Pelabuhan Kediri",
+  "Travel Pelabuhan Jombang",
+
+  "Travel Tulungagung Surabaya",
+  "Travel Kediri Surabaya",
+  "Travel Jombang Surabaya",
+  "Travel Mojokerto Surabaya",
+
+  "Travel Kediri Sidoarjo",
+  "Travel Jombang Sidoarjo",
+  "Travel Mojokerto Sidoarjo",
+
+  "Travel Tulungagung Bandara",
+  "Travel Kediri Bandara",
+  "Travel Jombang Bandara",
+  "Travel Mojokerto Bandara",
+
+  "Travel Tulungagung Pelabuhan",
+  "Travel Kediri Pelabuhan",
+  "Travel Jombang Pelabuhan",
 
 ];
 
 $kota = [
   [
-    'Purwokerto',
-    'purwokerto.jpg',
+    'Kediri',
+    'kediri.jpg',
   ],
   [
-    'Banyumas',
-    'banyumas.jpg',
+    'Surabaya',
+    'surabaya.jpg',
   ],
   [
-    'Semarang',
-    'semarang.jpg',
+    'Jombang',
+    'jombang.jpg',
   ],
   [
-    'Jogja',
-    'jogja.jpg',
+    'Tulungagung',
+    'tulungagung.jpg',
   ],
 ];
 
@@ -294,7 +236,7 @@ $keunggulan = [
             <button
               title="open nav"
               id="openNav"
-              class="bg-primary hover:bg-primary-hover p-1 rounded md:hidden">
+              class="my-gradient hover:!bg-none hover:!bg-primary-hover p-1 rounded md:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -320,7 +262,7 @@ $keunggulan = [
               <a
                 href="<?= $link_whatsapp ?>"
                 target="_blank"
-                class="flex gap-2 px-5 py-2 bg-primary hover:bg-primary-hover text-slate-200 rounded-lg w-min">
+                class="flex gap-2 px-5 py-2 my-gradient hover:!bg-none hover:!bg-primary-hover text-slate-200 rounded-lg w-min">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -347,7 +289,7 @@ $keunggulan = [
                 <button
                   title="close nav"
                   id="closeNav"
-                  class="absolute right-5 top-5 bg-primary hover:bg-primary-hover p-1 rounded md:hidden">
+                  class="absolute right-5 top-5 my-gradient hover:!bg-none hover:!bg-primary-hover p-1 rounded md:hidden">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -370,7 +312,7 @@ $keunggulan = [
                 <a
                   href="<?= $link_whatsapp ?>"
                   target="_blank"
-                  class="flex gap-2 px-5 py-2 bg-primary hover:bg-primary-hover text-slate-200 rounded-lg w-min">
+                  class="flex gap-2 px-5 py-2 my-gradient hover:!bg-none hover:!bg-primary-hover text-slate-200 rounded-lg w-min">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -424,7 +366,7 @@ $keunggulan = [
               <a
                 href="<?= $link_whatsapp ?>"
                 target="_blank"
-                class="flex gap-2 px-5 py-2 border-2 border-primary hover:border-primary-hover bg-primary hover:bg-primary-hover text-slate-200 rounded-lg w-min top-0 hover:top-2 transition-all duration-700 relative">
+                class="flex gap-2 px-5 py-2 border-2 border-primary hover:border-primary-hover my-gradient hover:!bg-none hover:!bg-primary-hover text-slate-200 rounded-lg w-min top-0 hover:top-2 transition-all duration-700 relative">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -468,7 +410,7 @@ $keunggulan = [
               <div class="w-full bg-slate-200 h-[1px] my-5"></div>
               <form
                 class="grid grid-cols-2 gap-5"
-                id="bookingForm">
+                id="booking-form">
                 <div class="col-span-full text-sm">
                   <label
                     for="nama"
@@ -569,7 +511,7 @@ $keunggulan = [
                   </div> -->
 
                 <button
-                  class="col-span-full px-5 py-2 border-2 border-primary hover:border-primary-hover bg-primary hover:bg-primary-hover text-slate-200 rounded-lg transition-all relative"
+                  class="col-span-full px-5 py-2 border-2 border-primary hover:border-primary-hover my-gradient hover:!bg-none hover:!bg-primary-hover text-slate-200 rounded-lg transition-all relative"
                   type="submit">
                   Pesan Sekarang
                 </button>
@@ -613,7 +555,7 @@ $keunggulan = [
                     <h3><?= $item[0] ?></h3>
                     <a
                       href="<?= $link_whatsapp ?>"
-                      target="_blank">
+                      target="_blank" class="my-gradient hover:!bg-none hover:!bg-primary-hover">
                       Pesan Sekarang
                     </a>
                   </div>
@@ -700,8 +642,8 @@ $keunggulan = [
                   <h3 class="!line-clamp-1 block whitespace-nowrap">
                     <?= $item ?> PP
                   </h3>
-                  <p class="text-sm opacity-80 my-2 !line-clamp-3">Reservasi tiket <strong><?= $item ?></strong> PP dengan sistem door to door dan perjalanan menyenangkan.</p>
-                  <a target="_blank" href="<?= $link_whatsapp ?>" class="bg-primary hover:!bg-primary-hover text-slate-100 block text-center text-sm mt-3 rounded p-2 relative">Reservasi Tiket</a>
+                  <p class="text-sm opacity-80 my-2 !line-clamp-3" <strong><?= $item ?></strong> harga murah, siap jalan 24 jam, dan jemput langusng dari rumah.</p>
+                  <a target="_blank" href="<?= $link_whatsapp ?>" class="my-gradient hover:!bg-none hover:!bg-primary-hover text-slate-100 block text-center text-sm mt-3 rounded p-2 relative">Reservasi Tiket</a>
                 </div>
               </div>
             <?php endforeach; ?>
@@ -731,14 +673,15 @@ $keunggulan = [
             <div class="text inner-container">
               <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300"><?= $brand ?></h2>
               <p class="desc !text-slate-300 !mb-5">
-                <?= $brand ?> menawarkan <a href="https://jasatravel.web.id/" target="_blank">jasa travel</a> antar provinsi yang bisa antar jemput sesuai titik? Kami rekomendasikan untuk menjadwalkan perjalanan travel anda bersama <?= $desc ?>
+                <?= $brand ?> menyediakan layanan <a class="underline" href="https://jasatravel.web.id/" target="_blank">travel antar kota</a> dengan sistem antar jemput langsung ke lokasi yang Anda tentukan. Kami menyarankan Anda untuk merencanakan perjalanan bersama <?= $desc ?>, agar lebih nyaman dan terorganisir.
               </p>
               <p class="desc !text-slate-300 !mb-5">
-                Salah satu rute utama kami adalah rute <a href="https://biotrans.id/rute/travel-banyumas-jogja//" class="underline" target="_blank">Travel Banyumas Jogja</a> dan Travel Purwokerto Semarang. Anda jangan ragu memilih kami sebagai solusi transport antar provinsi. Dijamin cepat dan aman sampai tujuan!
+                Salah satu rute favorit kami adalah <a href="https://biotrans.id/rute/travel-surabaya-kediri/" class="underline" target="_blank">Travel Surabaya Kediri</a> serta rute Kediri Surabaya. Percayakan kebutuhan transportasi antar provinsi Anda kepada kami untuk perjalanan yang cepat, aman, dan terpercaya.
               </p>
               <p class="desc !text-slate-300 !mb-5">
-                <?= $brand ?> menawarkan beberapa layanan transportasi untuk perjalanan anda, seperti:
+                <?= $brand ?> juga menghadirkan beragam pilihan layanan transportasi yang dapat disesuaikan dengan kebutuhan perjalanan Anda, antara lain:
               </p>
+
               <ul class="!list-item !list-disc text-slate-300 ml-5">
                 <li>Travel Reguler</li>
                 <li>Drop Off</li>
@@ -899,7 +842,7 @@ $keunggulan = [
 
     <!-- Keunggulan -->
     <section class="bg-gradient-to-tr from-primary to-primary-hover mb-20 py-20"
-      id="Keunggulan">
+      id="keunggulan">
       <div class="container">
         <div class="">
           <div class="text-center inner-container">
@@ -947,7 +890,7 @@ $keunggulan = [
           </p>
         </div>
         <div
-          class="[&>div]:h-full [&>div]:px-10 [&>div]:pb-10 containerSwipper [&_.itemSlider]:shadow-2xl [&_.itemSlider]:p-5 [&_.itemSlider]:border [&_.itemSlider]:rounded-xl [&_.itemSlider]:col-span-full [&_.itemSlider]:sm:col-span-6 [&_.itemSlider]:lg:col-span-4 first:[&_.itemSlider>div]:flex [&>img]:first:[&_.itemSlider>div]:w-4 [&_.testimoni]:text-slate-500 [&_.testimoni]:text-[15px] [&_.testimoni]:my-5 [&_.testimoni]:testimoni-text [&_.user-testimoni]:flex [&_.user-testimoni]:gap-x-4 [&_.user-testimoni_img]:w-10 [&_.user-testimoni_img]:border [&_.user-testimoni_img]:rounded-3xl [&_.user-testimoni_img]:p-1 [&_.user-testimoni_img]:bg-gradient-to-r [&_.user-testimoni_img]:from-primary-hover [&_.user-testimoni_img]:to-primary [&_.user-testimoni_div]:flex [&_.user-testimoni_div]:flex-col [&_.user-testimoni_div]:justify-center first:[&_.user-testimoni_div_p]:font-semibold first:[&_.user-testimoni_div_p]:text-sm last:[&_.user-testimoni_div_p]:text-slate-500 last:[&_.user-testimoni_div_p]:text-xs">
+          class="[&>div]:h-full [&>div]:px-10 [&>div]:pb-10 containerSwipper [&_.itemSlider]:shadow-2xl [&_.itemSlider]:p-5 [&_.itemSlider]:border [&_.itemSlider]:rounded-xl [&_.itemSlider]:col-span-full [&_.itemSlider]:sm:col-span-6 [&_.itemSlider]:lg:col-span-4 first:[&_.itemSlider>div]:flex [&>img]:first:[&_.itemSlider>div]:w-4 [&_.testimoni]:text-slate-500 [&_.testimoni]:text-[15px] [&_.testimoni]:my-5 [&_.testimoni]:testimoni-text [&_.user-testimoni]:flex [&_.user-testimoni]:gap-x-4 [&_.user-testimoni_img]:w-10 [&_.user-testimoni_img]:border [&_.user-testimoni_img]:rounded-3xl [&_.user-testimoni_img]:p-1 [&_.user-testimoni_img]:bg-primary [&_.user-testimoni_img]:from-primary-hover [&_.user-testimoni_img]:to-primary [&_.user-testimoni_div]:flex [&_.user-testimoni_div]:flex-col [&_.user-testimoni_div]:justify-center first:[&_.user-testimoni_div_p]:font-semibold first:[&_.user-testimoni_div_p]:text-sm last:[&_.user-testimoni_div_p]:text-slate-500 last:[&_.user-testimoni_div_p]:text-xs">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -1369,7 +1312,7 @@ $keunggulan = [
 
   <script src="./src/js/script.js"></script>
   <script>
-    const bookingForm = document.querySelector('#bookingForm')
+    const bookingForm = document.querySelector('#booking-form')
 
     bookingForm.addEventListener('submit', (e) => {
       e.preventDefault()
