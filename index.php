@@ -418,7 +418,7 @@ $keunggulan = [
                   <div class="mt-1">
                     <input
                       type="text"
-                      requiblue
+                      required
                       name="nama"
                       id="nama"
                       autocomplete="off"
@@ -434,7 +434,7 @@ $keunggulan = [
                     <div class="mt-1">
                       <input
                         type="text"
-                        requiblue
+                        required
                         name="asal"
                         id="asal"
                         autocomplete="off"
@@ -448,7 +448,7 @@ $keunggulan = [
                     <div class="mt-1">
                       <input
                         type="text"
-                        requiblue
+                        required
                         name="tujuan"
                         id="tujuan"
                         autocomplete="off"
@@ -487,7 +487,7 @@ $keunggulan = [
                       <input
                         min="08"
                         type="number"
-                        requiblue
+                        required
                         name="nomor"
                         id="nomor"
                         autocomplete="off"
@@ -502,7 +502,7 @@ $keunggulan = [
                     <div class="mt-1">
                       <input
                         type="datetime-local"
-                        requiblue
+                        required
                         name="jadwal"
                         id="jadwal"
                         autocomplete="off"
